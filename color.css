@@ -1,0 +1,21 @@
+.color-grid,
+.static-color-grid {
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.color-cell,
+.pick-color-cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+}
+
+.selected {
+  border-width: 2px;
+  border-color: black;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
